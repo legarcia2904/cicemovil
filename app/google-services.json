@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "952307809698",
+    "firebase_url": "https://gpstracking-b3a1a.firebaseio.com",
+    "project_id": "gpstracking-b3a1a",
+    "storage_bucket": "gpstracking-b3a1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952307809698:android:d90bb411c0a4d55a",
+        "android_client_info": {
+          "package_name": "mx.edu.cicese.cicemovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952307809698-f1emhs4od6vdkm88h79na5ufar9adc07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.edu.cicese.cicemovil",
+            "certificate_hash": "35ed7cde57497bedb4f2c9686a2acd0d89956ebc"
+          }
+        },
+        {
+          "client_id": "952307809698-0mam6vdudlpcns9999e5eo2ljd1pjt1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWXDIE1f62HZEcEa-6KXgYKJFzNupqrQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952307809698-0mam6vdudlpcns9999e5eo2ljd1pjt1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
