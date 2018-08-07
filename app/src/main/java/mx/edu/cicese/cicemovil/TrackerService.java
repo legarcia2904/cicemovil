@@ -90,7 +90,7 @@ public class TrackerService extends Service {
         request.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
         FusedLocationProviderClient client = LocationServices.getFusedLocationProviderClient(this);
         final String path = getString(R.string.firebase_path) + "/" + getString(R.string.transport_id);
-        final String hist_path = getString(R.string.firebase_hist_path) + "/" + getString(R.string.transport_id);
+//        final String hist_path = getString(R.string.firebase_hist_path) + "/" + getString(R.string.transport_id);
         int permission = ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_FINE_LOCATION);
         if (permission == PackageManager.PERMISSION_GRANTED) {
@@ -100,12 +100,12 @@ public class TrackerService extends Service {
                 @Override
                 public void onLocationResult(LocationResult locationResult) {
                     DatabaseReference ref = FirebaseDatabase.getInstance().getReference(path);
-                    DatabaseReference hist_ref = FirebaseDatabase.getInstance().getReference(hist_path);
+//                    DatabaseReference hist_ref = FirebaseDatabase.getInstance().getReference(hist_path);
                     Location location = locationResult.getLastLocation();
                     if (location != null) {
                         Log.d(TAG, "location update " + location);
                         ref.setValue(location);
-                        hist_ref.push().setValue(location);
+//                        hist_ref.push().setValue(location);
                     }
                 }
             }, null);
