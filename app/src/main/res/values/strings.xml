@@ -3,6 +3,7 @@
 <string name="notification_text">Rastreo activado, toque para cancelar</string>
 <string name="transport_id" translatable="false">123</string>
 <string name="firebase_path" translatable="false">locations</string>
+<string name="firebase_hist_path" translatable="false">historicallocations</string>
 <string name="firebase_email" translatable="false">cicemovil@cicese.edu.mx</string>
 <string name="firebase_password" translatable="false">movil2018</string>
 </resources>
